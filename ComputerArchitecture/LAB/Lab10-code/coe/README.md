@@ -1,9 +1,0 @@
-lab10.asm和lab10_all.asm是汇编代码
-
-lab10.coe和lab10_all.coe是用于加载到Rom的文件
-
-lab10.coe包含了基础的4条指令的测试代码
-
-lab10_all.coe报了全部10条指令的测试代码
-
-bonus指令的测试请自行编写或者在lab10_all的基础上添加
