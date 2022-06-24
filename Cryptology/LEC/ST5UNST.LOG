@@ -1,0 +1,149 @@
+ %% PLEASE DO NOT MODIFY OR DELETE THIS FILE! %% 
+ %% This file contains information about the installation of an application. %% 
+ %% It will be used to automatically remove all application components from your computer if you choose to do so. %% 
+
+
+NOTE: Beginning of the bootstrapper section
+
+CONFIG: Title: "ENIGMA"
+
+ACTION: TempFile: "C:\Windows\setup1.exe"
+(File was not found or was an older version -- new file copied)
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "SharedDLLs"
+
+ACTION: SharedFile: "C:\Windows\System32\VB5StKit.dll"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SystemFile: "C:\Windows\System32\MSVBVM50.dll"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SystemFile: "C:\Windows\System32\StdOle2.tlb"
+(File currently on disk was already up to date)
+
+ACTION: SystemFile: "C:\Windows\System32\OleAut32.dll"
+(File currently on disk was already up to date)
+
+ACTION: SystemFile: "C:\Windows\System32\OlePro32.dll"
+(File currently on disk was already up to date)
+
+ACTION: SystemFile: "C:\Windows\System32\AsycFilt.dll"
+(File currently on disk was already up to date)
+
+NOTE: The file 'Ctl3d32.dll' was not copied because it is intended for use under Windows NT 3.51 only.  It is not needed under Windows 95 or NT 4.0.
+
+ACTION: SystemFile: "C:\Windows\System32\Ctl3d32.dll"
+(File currently on disk was already up to date)
+
+ACTION: SystemFile: "C:\Windows\System32\ComCat.dll"
+(File currently on disk was already up to date)
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\MSVBVM50.dll"
+
+ACTION: TLBRegister: "C:\WINDOWS\system32\StdOle2.tlb"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\OleAut32.dll"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\OlePro32.dll"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\ComCat.dll"
+
+NOTE: End of the bootstrapper section
+
+NOTE: Now spawning the main Setup program 'C:\Windows\setup1.exe'....
+
+ACTION: SharedFile: "C:\Windows\System32\COMDLG32.OCX"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\ENIGMA.exe"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\16-eni.JPG"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\01-eni.JPG"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\02-eni.JPG"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\03-eni.JPG"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\04-eni.JPG"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\05-eni.JPG"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\06-eni.JPG"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\07-eni.JPG"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\08-eni.JPG"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\09-eni.JPG"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\10-eni.JPG"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\11-eni.JPG"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\12-eni.JPG"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\13-eni.JPG"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\14-eni.JPG"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\15-eni.JPG"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\cover-m4-open.bmp"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\cover-i.bmp"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\cover-i-open.bmp"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\cover-m3.bmp"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\cover-m3-open.bmp"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\cover-m4.bmp"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\Enigma Sim Manual.pdf"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\Readme.txt"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\key-down.wav"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\key-up.wav"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "c:\Users\MSI-NB\Desktop\2022\Cryptology\LEC\tick.wav"
+(File was not found or was an older version -- new file copied)
+
+ACTION: DllSelfRegister: "C:\Windows\System32\COMDLG32.OCX"
+
+ACTION: ShellLink: "", "ENIGMA"
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "App Paths\ENIGMA.exe"
+
+ACTION: RegValue: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\ENIGMA.exe", ""
+

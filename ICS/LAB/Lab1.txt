@@ -1,0 +1,29 @@
+0011 0000 0000 0000 ; (start address at 0x3000) ; This program use 5 register
+;  001: the number of x3100    010: the left shifted of num
+;  011:  the last number to shift   100: the number of '1'
+;  101: the 100reg -3
+0010 001 011111111; load 0x3100 number to reg001
+0001 010 001 1 00000; 010 reg store the now number we check
+0101 011 011 1 00000;  clean 010 register
+0101 100 100 1 00000;  clean 100 register
+0001 011 011 1 01111; add r3,15
+0001 011 011 1 00001; add r3,1
+;loop
+0000 010 000001010;if r3 = 0 ,jmp
+0001 010 010 1 00000;  reput condition code
+0000 011 000000010; if r2>=0 jmp 22'	
+0001 100 100 1 00001; add r4,1
+0000 111 000000001; jmp 22'
+0101 100 100 1 00000; clean 100 register
+0001 101 100 1 11101; r5 = r4 - 3
+0000 011 000000011; if r5 >=0.jmp break out.
+0001 010 010 0 00 010; left shifted 010reg mean 010 reg *2
+0001 011 011 1 11111; add 011reg  -1; 
+0000 111 111110101; 
+0101 010 010 1 00000; clean reg010
+0001 011 011 1 00000;
+0000 001 000000010;    postive or zero
+0001 010 010 1 00000; 
+0000 111 000000001;
+0001 010 010 1 00001;
+1111 0000 0010 0101 ; halting code
